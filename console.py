@@ -53,11 +53,11 @@ class HBNBCommand(cmd.Cmd):
         print()
         return True
 
-    # def help_EOF(self):
-    #     """
-    #     help EOF command
-    #     """
-    #     print("EOF:\nExit the program - press Ctr-D or enter EOF")
+    def help_EOF(self):
+        """
+        help EOF command
+        """
+        print("EOF:\nExit the program - press Ctr-D or enter EOF")
 
     def emptyline(self):
         """
