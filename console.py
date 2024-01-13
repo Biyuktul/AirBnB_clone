@@ -46,24 +46,21 @@ class HBNBCommand(cmd.Cmd):
     #     """
     #     print("Quit command to exit the program")
 
-    def do_EOF(self, line):
+    def emptyline(self):
+        """ If this method is overriddes, the built in emptyline
+            function which repeats the last nonempty command entered.
         """
-        End of file command to exit the program
+        return
+
+    def do_quit(self, arg):
+        """Quit command to exit the program
         """
-        print()
         return True
 
-    def help_EOF(self):
+    def do_EOF(self, arg):
+        """Quit command to exit the program
         """
-        help EOF command
-        """
-        print("EOF:\nExit the program - press Ctr-D or enter EOF")
-
-    def emptyline(self):
-        """
-        An empty line passed to the console
-        """
-        pass
+        return True
 
     # def do_create(self, line):
     #     """
