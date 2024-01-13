@@ -3,7 +3,7 @@
 This is console module
 """
 import cmd
-from models.base_model import BaseModel
+# from models.base_model import BaseModel
 # from models.user import User
 
 # from models.place import Place
@@ -12,7 +12,7 @@ from models.base_model import BaseModel
 # from models.amenity import Amenity
 # from models.review import Review
 
-import models
+# import models
 
 
 
