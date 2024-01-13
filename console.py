@@ -59,11 +59,11 @@ class HBNBCommand(cmd.Cmd):
     #     """
     #     print("EOF:\nExit the program - press Ctr-D or enter EOF")
 
-    # def emptyline(self):
-    #     """
-    #     An empty line passed to the console
-    #     """
-    #     pass
+    def emptyline(self):
+        """
+        An empty line passed to the console
+        """
+        pass
 
     # def do_create(self, line):
     #     """
